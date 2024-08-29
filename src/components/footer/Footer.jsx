@@ -22,9 +22,9 @@ import img8 from "../../assets/Link → google-play.jpg.png";
 import img9 from "../../assets/payment-method.png.png";
 const Footer = () => {
   return (
-    <div className="">
+    <div className="mt-4">
       <div className="bg-sky-200 w-full pt-11">
-        <div className="flex  container justify-between ">
+        <div className="flex  container mx-auto justify-between ">
           <div className="w-1/3 flex flex-col gap-7 mt-7">
             <b className="text-4xl">
               Stay home & get your daily needs from our shop
@@ -52,7 +52,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="container flex items-center py-5 justify-center gap-4">
+      <div className="container mx-auto flex items-center py-5 justify-center gap-4">
         <div className=" flex justify-center items-center gap-3 bg-slate-300 p-2 w-72  rounded-2xl">
           <div className="">
             <img src={img2} alt="" />
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
       </div>
       <div>
-        <div className="container mt-10">
+        <div className="container mx-auto mt-10">
           <div className="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-6 gap-4 mb-8">
             <div className="flex flex-col gap-5">
               <img className="mb-5" src={footerlogo} alt="" />

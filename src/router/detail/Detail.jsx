@@ -15,10 +15,10 @@ const Detail = () => {
   console.log(data);
 
   return (
-    <div className="container mb-11">
+    <div className="container mx-auto mb-11">
       <div className="flex gap-28">
         <div className="flex gap-6 flex-col ">
-          <div className="border rounded-xl ">
+          <div className="border rounded-xl object-contain ">
             <img src={data?.images[0]} alt="" />
           </div>
           <div className="flex   items-center gap-4 justify-center">

@@ -16,14 +16,14 @@ const Hero = () => {
   return (
     <div className="container mx-auto my-7">
       <Carousel autoplay>
-        <div>
-          <img src={img1} alt="" />
+        <div className="flex items-center justify-center">
+          <img className="w-full" src={img1} alt="" />
         </div>
-        <div>
-          <img src={img2} alt="" />
+        <div className="flex items-center justify-center">
+          <img className="w-full" src={img2} alt="" />
         </div>
-        <div>
-          <img src={img3} alt="" />
+        <div className="flex items-center justify-center">
+          <img className="w-full" src={img3} alt="" />
         </div>
       </Carousel>
     </div>

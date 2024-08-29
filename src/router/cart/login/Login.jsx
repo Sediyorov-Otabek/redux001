@@ -18,7 +18,7 @@ const Login = () => {
       .post("/auth/login", values)
       .then((res) => {
         messageApi.success("successfully");
-        dispatch({ type: "LOGIN", payload: res.data.token });
+        dispatch({ type: "LOG_IN", payload: res.data.token });
         navigate("/");
         console.log(res);
       })
